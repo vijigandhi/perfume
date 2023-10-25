@@ -1,0 +1,91 @@
+h1{
+   color: blue;
+}
+#nested{
+    font-size: large;
+     
+}
+.para{
+    color: brown;
+    font-style: oblique;
+}
+h2.nest{
+    color: blueviolet;
+}
+
+.inner{
+    font-style: oblique;
+    background-color: aquamarine;
+}
+.para1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: chartreuse;
+}
+*{
+    color: black;
+ }
+ p{
+   color: chocolate;
+ }
+ h4,h5{
+    color: cornflowerblue;
+    font-size:larger;
+ } 
+#parent h6{
+    color: color-mix(in hsl shorter hue, color percentage, color percentage);
+    font-size: x-large;
+}
+#parent>div{
+    background-color: rgba(27, 231, 231, 0.925);
+}
+h4~h5{
+    color: darkblue;
+}
+div+h1{
+    background-color: rgb(41, 35, 35);
+}
+
+
+
+
+
+
+
+
+
+
+a:link{
+    color: rgb(29, 233, 22);
+}
+a:hover{
+    color: rgb(243, 228, 15);
+}
+a:visited{
+    color: rgb(247, 18, 18);
+}
+a:active{
+    color: blueviolet;
+}
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+p:nth-child(3n){
+    color: green;
+}
+p:nth-child(3n-1){
+    color:blue;
+}
+
+
